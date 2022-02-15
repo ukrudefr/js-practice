@@ -1,4 +1,4 @@
-const myFunction = function (a, b) {
+/* const myFunction = function (a, b) {
 	let c
 	a = a + 1
 	c = a + b
@@ -21,5 +21,11 @@ const areYouOverweight = function() {
 }
 
 console.log(bodyMassIndex);
-areYouOverweight();
+areYouOverweight(); */
+
+//Ternary Operator//
+
+let age = prompt('Geben Sie bitte Ihr Alter ein');
+const adult = age >= 18 ? alert('Sie sind Erwachsen') : alert('Sie sind nicht berechtigt');
+
 
